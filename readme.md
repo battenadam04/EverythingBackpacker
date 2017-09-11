@@ -1,5 +1,6 @@
 This application is for users travelling Australia, allowing them to find Jobs, Accomodation and Transport.
 
+This application uses a 3rd party payment gateway called Stripe and this will require an account to test site.
 this application requires the following 3rd party libarary scripts and CSS to run
 
 <script src="https://js.stripe.com/v3/"></script>
@@ -9,4 +10,4 @@ this application requires the following 3rd party libarary scripts and CSS to ru
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
-This application uses a 3rd party payment gateway called Stripe and this will require an account to test site.
+
