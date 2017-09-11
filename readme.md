@@ -5,8 +5,11 @@ This application uses a 3rd party payment gateway called Stripe and this will re
 *------- this application requires the following remote 3rd party libarary scripts to run --------*
 
 https://js.stripe.com/v3/
+
 https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js
+
 https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js
+
 //angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js
 
 
