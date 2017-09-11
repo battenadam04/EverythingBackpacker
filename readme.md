@@ -8,4 +8,5 @@ this application requires the following 3rd party libarary scripts and CSS to ru
 <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+
 This application uses a 3rd party payment gateway called Stripe and this will require an account to test site.
