@@ -10,7 +10,7 @@ https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js
 
 https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js
 
-//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js
+angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js
 
 
 *-------This has 4 different subscription accounts -------* 
