@@ -161,7 +161,7 @@
                   
               
 		
-			           <div class="ChatService">
+			           <div class="Chat">
 	                          <button class="ChatService btn btn-primary" id="{{x.Permission}}">Check for Chat Service</button>
 	                           <p hidden>{{ x.Fname }}</p>
                               <div class="Chat"></div>

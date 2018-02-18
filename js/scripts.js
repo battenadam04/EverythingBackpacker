@@ -14,7 +14,7 @@ data2App.filter('unique', function ()
 
         if ((filterOn || angular.isUndefined(filterOn)) && angular.isArray(items)) 
         {
-            var hashCheck = {}, newItems = [];
+            var  newItems = [];
             var extractValueToCompare = function (item) 
             {
                 if (angular.isObject(item) && angular.isString(filterOn)) 
@@ -29,7 +29,7 @@ data2App.filter('unique', function ()
 
             angular.forEach(items, function (item) 
             {
-                var valueToCheck, isDuplicate = false;
+                var  isDuplicate = false;
 
                 for (var i = 0; i < newItems.length; i++) 
                 {
@@ -56,9 +56,7 @@ data2App.filter('unique', function ()
  data2App.filter('reverse', function() 
  {
 
-  return function(items) 
-  {
-    if (!items) { return };
+     return function(items) {
     return items.slice().reverse();
   };
  });// close the reverse filter function
@@ -116,14 +114,15 @@ data2App.filter('unique', function ()
 
 
 
-  data2App.filter('startFrom', function() 
-  {
+  data2App.filter('startFrom', function () {
     return function(input, start) {
+        if (!angular.isArray(input)) {
+            return [];
+        }
         start = +start; //parse to int
         return input.slice(start);
-    }
- });//close the startFrom filter function
-
+    };
+});
 
  dataApp.controller('TransCtrl', function ($scope, $http) 
  {
